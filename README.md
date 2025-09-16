@@ -32,8 +32,8 @@ Les URL doivent être personnalisées par candidat selon le format :
   Utiliser **un seul tiret** entre les segments ; **aucun tiret** en début/fin.
 
 **Exemple avec le candidat *Dumoulin Adrien***
-- Page 1 : `/dumoulin-completez-votre-reservation`
-- Page 2 : `/dumoulin-paiement`
+- Page 1 : `/randriambololona-complete-booking`
+- Page 2 : `/randriambololona-paiement`
 
 ---
 
