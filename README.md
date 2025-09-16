@@ -15,7 +15,7 @@ En cas d’incohérence visuelle, ajustez pour obtenir une **vue harmonisée** (
 - **Formulaires et moyens de paiement** :  
   - Les logos des moyens de paiement doivent être dans des `div` de **même taille** pour garantir l’alignement du texte à gauche.  
   - Les boutons de sélection (`radio`) doivent **occuper toute la largeur du conteneur** et rester cohérents avec le design.  
-  - Logos fonctionnels : **Visa** pour carte bancaire, **Alma** avec SVG correct, Apple Pay, PayPal.  
+  - Logos fonctionnels : **Visa** pour carte bancaire, **Alma** (non fixé), Apple Pay, PayPal.  
 
 ---
 

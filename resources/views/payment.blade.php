@@ -61,51 +61,43 @@
                 <hr class="border-t border-gray-500 mb-10">
 
                 <!-- Payment method -->
-<div class="divide-y divide-gray-300">
-    <!-- Carte bancaire (Visa) -->
-    <label for="cb" class="flex items-center p-4 cursor-pointer hover:bg-gray-50">
-        <input type="radio" id="cb" name="payment" class="text-[#BF2A6B] focus:ring-pink-500">
-        <div class="w-12 h-6 flex items-center justify-center ml-4">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Carte bancaire" class="h-6">
-        </div>
-        <div class="ml-4 flex flex-col text-left flex-grow">
-            <span class="text-lg font-medium text-gray-700">Carte bancaire</span>
-        </div>
-    </label>
+                <div class="divide-y divide-gray-300">
+                    <!-- Carte bancaire -->
+                    <label for="cb" class="flex items-center p-4 cursor-pointer hover:bg-gray-50 w-full">
+                        <input type="radio" id="cb" name="payment" class="h-4 w-4 text-[#BF2A6B] focus:ring-pink-500">
+                        <div class="w-12 h-8 ml-4 flex items-center justify-center">
+                            <img src="/images/carte-bancaire.png" alt="Carte bancaire" class="max-h-full max-w-full">
+                        </div>
+                        <span class="ml-3 flex-grow text-lg font-medium text-gray-700 text-left">Carte bancaire</span>
+                    </label>
 
-    <!-- Apple Pay -->
-    <label for="applepay" class="flex items-center p-4 cursor-pointer hover:bg-gray-50">
-        <input type="radio" id="applepay" name="payment" class="text-[#BF2A6B] focus:ring-pink-500">
-        <div class="w-12 h-6 flex items-center justify-center ml-4">
-            <i class="fab fa-apple-pay text-4xl"></i>
-        </div>
-        <div class="ml-4 flex flex-col text-left flex-grow">
-            <span class="text-lg font-medium text-gray-700">Apple Pay</span>
-        </div>
-    </label>
+                    <!-- Apple Pay -->
+                    <label for="applepay" class="flex items-center p-4 cursor-pointer hover:bg-gray-50 w-full">
+                        <input type="radio" id="applepay" name="payment" class="h-4 w-4 text-[#BF2A6B] focus:ring-pink-500">
+                        <div class="w-12 h-8 ml-4 flex items-center justify-center">
+                            <img src="/images/Apple_Pay_logo.png" alt="Apple Pay" class="max-h-full max-w-full">
+                        </div>
+                        <span class="ml-3 flex-grow text-lg font-medium text-gray-700 text-left">Apple Pay</span>
+                    </label>
 
-    <!-- Paypal -->
-    <label for="paypal" class="flex items-center p-4 cursor-pointer hover:bg-gray-50">
-        <input type="radio" id="paypal" name="payment" class="text-[#BF2A6B] focus:ring-pink-500">
-        <div class="w-12 h-6 flex items-center justify-center ml-4">
-            <i class="fab fa-paypal text-3xl text-blue-600"></i>
-        </div>
-        <div class="ml-4 flex flex-col text-left flex-grow">
-            <span class="text-lg font-medium text-gray-700">Paypal</span>
-        </div>
-    </label>
+                    <!-- PayPal -->
+                    <label for="paypal" class="flex items-center p-4 cursor-pointer hover:bg-gray-50 w-full">
+                        <input type="radio" id="paypal" name="payment" class="h-4 w-4 text-[#BF2A6B] focus:ring-pink-500">
+                        <div class="w-12 h-8 ml-4 flex items-center justify-center">
+                            <img src="/images/PayPal.png" alt="PayPal" class="max-h-full max-w-full">
+                        </div>
+                        <span class="ml-3 flex-grow text-lg font-medium text-gray-700 text-left">PayPal</span>
+                    </label>
 
-    <!-- Alma -->
-    <label for="alma" class="flex items-center p-4 cursor-pointer hover:bg-gray-50">
-        <input type="radio" id="alma" name="payment" class="text-[#BF2A6B] focus:ring-pink-500">
-        <div class="w-12 h-6 flex items-center justify-center ml-4">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Alma_Logo.svg" alt="Logo Alma" class="h-6">
-        </div>
-        <div class="ml-4 flex flex-col text-left flex-grow">
-            <span class="text-lg font-medium text-gray-700">Alma</span>
-        </div>
-    </label>
-</div>
+                    <!-- Alma -->
+                    <label for="alma" class="flex items-center p-4 cursor-pointer hover:bg-gray-50 w-full">
+                        <input type="radio" id="alma" name="payment" class="h-4 w-4 text-[#BF2A6B] focus:ring-pink-500">
+                        <div class="w-12 h-8 ml-4 flex items-center justify-center">
+                            <img src="/images/alma.png" alt="Alma" class="max-h-full max-w-full">
+                        </div>
+                        <span class="ml-3 flex-grow text-lg font-medium text-gray-700 text-left">Alma</span>
+                    </label>
+                </div>
 
 
                 <!-- Bouton Réservation -->
