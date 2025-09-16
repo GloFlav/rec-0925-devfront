@@ -102,11 +102,12 @@
 
                 <!-- Bouton Réservation -->
                 <div class="mt-8">
-                <button
+                    <a href="/randriambololona-complete-booking"
                     class="w-full flex justify-center items-center bg-[#BF2A6B] hover:bg-pink-700 text-white font-bold py-4 px-4 rounded-md transition duration-300">
                     Je réserve mon test psychotechnique
                     <i class="fas fa-arrow-right ml-3"></i>
-                </button>
+                    </a>
+
                 </div>
 
 
