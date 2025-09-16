@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('payment');
+    return view('complete-booking');
 });
 Route::get('/randriambololona-complete-booking', function () {
     return view('complete-booking');

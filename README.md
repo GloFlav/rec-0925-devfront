@@ -9,15 +9,19 @@ En cas d’incohérence visuelle, ajustez pour obtenir une **vue harmonisée** (
 ---
 
 ## Stack & périmètre
-- Réaliser les pages **en HTML et Tailwind CSS uniquement** (Tailwind est **déjà installé**).
-- **Aucune autre dépendance** ne devra être installée.
-- Ces pages sont **statiques** : **aucun besoin de base de données**.
+- Réaliser les pages **en HTML et Tailwind CSS uniquement** (Tailwind est **déjà installé**).  
+- **Aucune autre dépendance** ne devra être installée.  
+- Ces pages sont **statiques** : **aucun besoin de base de données**.  
+- **Formulaires et moyens de paiement** :  
+  - Les logos des moyens de paiement doivent être dans des `div` de **même taille** pour garantir l’alignement du texte à gauche.  
+  - Les boutons de sélection (`radio`) doivent **occuper toute la largeur du conteneur** et rester cohérents avec le design.  
+  - Logos fonctionnels : **Visa** pour carte bancaire, **Alma** avec SVG correct, Apple Pay, PayPal.  
 
 ---
 
 ## Modalités de dépôt
-- Travaillez **uniquement sur un fork GitHub** de notre dépôt.
-- **Aucune branche** ne devra être créée : utilisez la **branche principale** de votre fork.
+- Travaillez **uniquement sur un fork GitHub** de notre dépôt.  
+- **Aucune branche** ne devra être créée : utilisez la **branche principale** de votre fork.  
 
 ---
 
@@ -27,20 +31,20 @@ Les URL doivent être personnalisées par candidat selon le format :
 
 **Règles :**
 - **nom-de-famille** : en minuscules, accents supprimés, espaces → « - ».  
-  *Ex.* « Dupré-Lefèvre » → `dupre-lefevre`.
+  *Ex.* « Dupré-Lefèvre » → `dupre-lefevre`.  
 - **slug-de-la-page** : en minuscules, accents supprimés, espaces → « - » ; caractères autorisés : `a–z`, `0–9`, `-`.  
   Utiliser **un seul tiret** entre les segments ; **aucun tiret** en début/fin.
 
 **Exemple avec le candidat *Dumoulin Adrien***
-- Page 1 : `/randriambololona-complete-booking`
-- Page 2 : `/randriambololona-paiement`
+- Page 1 : `/randriambololona-complete-booking`  
+- Page 2 : `/randriambololona-paiement`  
 
 ---
 
 ## Livrables attendus
-- Lien GitHub de votre **fork public** (historique de commits propre et régulier).
-- **README** à la racine incluant :
-    - **Instructions de lancement/build** si différentes du projet de base.
-    - Section **« Notes de design »** : incohérences rencontrées, arbitrages, fallback de police si nécessaire.
-- *(Optionnel)* **Captures comparatives** montrant vos vérifications de pixel perfect.
-- **Temps passé** (indicatif).
+- Lien GitHub de votre **fork public** (historique de commits propre et régulier).  
+- **README** à la racine incluant :  
+    - **Instructions de lancement/build** si différentes du projet de base.  
+    - Section **« Notes de design »** : incohérences rencontrées, arbitrages, fallback de police si nécessaire, **explications sur le formulaire et les moyens de paiement** (logos uniformisés, texte aligné à gauche, Alma et Visa fonctionnels).  
+- *(Optionnel)* **Captures comparatives** montrant vos vérifications de pixel perfect.  
+- **Temps passé** (indicatif).  
